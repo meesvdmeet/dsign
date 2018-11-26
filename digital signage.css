@@ -1,0 +1,313 @@
+/* start page */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab light";
+}
+
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+/* end page*/
+
+/* start header */
+header {
+    position: absolute;
+    height: 25%;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+
+.deco{
+    width: 100%;
+    height: 0.5%;
+    position: absolute;
+    top: 25%;
+    background-color: #0066cc;
+}
+
+
+#sidenav a {
+    position: fixed;
+    right: -175px;
+    transition: 1s;
+    padding: 5px;
+    width: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+#sidenav a:hover {
+    right: -20px;
+}
+
+#facebook{
+    position: absolute;
+    text-align: left;
+    top: 25px;
+    background-color: #3b5998;
+}
+
+#twitter {
+    text-align: left;
+    top: 70px;
+    background-color: #0084b4;
+}
+
+#phone {
+    text-align: left;
+    top: 115px;
+    background-color: #f44336;
+}
+
+
+.headlogo{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+/* end header*/
+
+/* start firstsection */
+#firstsectionpicture {
+    background-image: url("bos.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 25.5%;
+}
+
+.head-text{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 30%;
+    width: 100%;
+    font-size: 50px;
+}
+
+#firstdown{
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+/* end firstsection */
+
+/* start midsection */
+#midsection {
+    background-image: url("marita-kavelashvili-1151412-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.tekst{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+#up{
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#seconddown{
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+}
+/* end midsection */
+
+#thirdsection {
+    background-image: url("ilya-pavlov-87438-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    height: 100%;
+}
+
+#secondup{
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#thirddown{
+    position: absolute;
+    left: 50%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.tekst2 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+/* start contactform*/
+#thirdup{
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+#contactform {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 300%;
+}
+
+.contactbackground{
+    background-image: url("street.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 300%;
+    opacity: 0.8;
+}
+
+#intputcontact{
+    position: relative;
+    background-color: rgba(0,0,0,0.41);
+    width: 50%;
+    top: 22.5%;
+    height: 50%;
+    float: left;
+    color: white;
+}
+
+#information{
+    position: relative;
+    top: 22.5%;
+    background-color: rgba(0,0,0,0.41);
+    float: left;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    color: white;
+}
+
+.email, .locatie{
+    text-decoration: none;
+    color: white;
+}
+
+input[type=text], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin: 1% 10% 1% 10%;
+    font-size: 80%;
+    font-family: "Roboto Slab light";
+}
+
+.button {
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 15%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1% 42.5% 1% 42.5%;
+    height: auto;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/* end contactform */
+
+.footer{
+    position: fixed;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
