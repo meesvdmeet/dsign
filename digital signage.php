@@ -19,6 +19,9 @@
         gtag('config', 'UA-129446527-1');
     </script>
 
+git remote add origin https://github.com/meesvdmeet/dsign.git
+git push -u origin master
+    
 </head>
 <body>
 
